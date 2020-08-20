@@ -63,6 +63,10 @@ Note: Delete your branch because it is no longer needed
 git push origin --delete <add-your-name> (e.g. add-chis-erdmann)
 Note: Also delete in your remote version
 
+ADDING new git files (new or updated)
+run: git . (which adds everything to the staging area)
+
+
 git books (free)
 1. Pro Git / https://git-scm.com/book/en/v2
 2. Git visual reference / https://marklodato.github.io/visual-git-guide/index-en.html (also saved as an offline html file)
