@@ -63,5 +63,11 @@ Note: Delete your branch because it is no longer needed
 git push origin --delete <add-your-name> (e.g. add-chis-erdmann)
 Note: Also delete in your remote version
 
+git books (free)
+1. Pro Git / https://git-scm.com/book/en/v2
+2. Git visual reference / https://marklodato.github.io/visual-git-guide/index-en.html (also saved as an offline html file)
+
 YouTube Video
-https://www.youtube.com/watch?v=Gg4bLk8cGNo
+1. https://www.youtube.com/watch?v=uR6G2v_WsRA
+2. https://www.youtube.com/watch?v=FyAAIHHClqI
+3. https://www.youtube.com/watch?v=Gg4bLk8cGNo
