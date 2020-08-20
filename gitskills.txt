@@ -1,0 +1,70 @@
+Working with various git skills for purposes of Library Carpentry git maintenance:
+
+1. started with using this GMU git lesson ti begin: https://pad.carpentries.org/libcarp-gmu
+
+### Let's move over to the command line
+
+First set your local email (or replace with global)
+git config --local user.email "email@example.com"
+git config --local user.name "your name"
+git config --local user.email
+git config --local user.name
+
+
+Have git track a folder
+Call it myfirstgit   -  mkdir myfirst git
+make this directory a git repository - git init
+Check to see if it is tracking a folder - git status
+
+Touch a file  -  touch file.txt
+Check on the status   -  git status
+Add the file  - git add *
+Check on the status  -  git status
+Commit the file with a message   - git commit -m "this is a new file"
+If there are errors, go back up here in the etherpad and run the git config commands above
+Check on the status  -  git status
+View the log   - git log
+
+A visual of what you just did:
+https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
+
+git show hash
+Also git diff hash hash
+
+Go back to Desktop
+
+On github, go to recipes folder
+Click on the "Clone/download" button
+copy the URL from github - the copiedURL
+put the github recipes repo on your desktop - git clone <copiedURL>
+
+Go to your recipes directory - cd recipes
+touch some files  -   touch a.txt
+add  -   git add a.txt
+commit  -  git commit -m "new file"
+push back up to the github repo  - git  push
+
+Fork https://github.com/libcce/2018-12-13-GMUl
+Clone https://github.com/libcce/2018-12-13-GMU.git
+cd 2018-12-13-GMU
+git checkout -b <add-your-name> (e.g. add-chis-erdmann)
+Note: This is called a branch
+Open test.md in text editor and add your name using Markdown formatting
+git add, commit
+git push origin <add-your-name> (e.g. add-chis-erdmann)
+Go to GitHub compare, pull request
+
+Staying in sync
+git checkout master
+git remote add upstream https://github.com/libcce/2018-12-13-GMU
+git fetch upstream
+git rebase upstream/master (merge into your master branch)
+git branch -d <add-your-name> (e.g. add-chis-erdmann)
+Note: Delete your branch because it is no longer needed
+git push origin --delete <add-your-name> (e.g. add-chis-erdmann)
+Note: Also delete in your remote version
+
+
+
+YouTube Video
+https://www.youtube.com/watch?v=Gg4bLk8cGNo
