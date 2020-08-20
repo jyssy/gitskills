@@ -10,7 +10,6 @@ git config --local user.name "your name"
 git config --local user.email
 git config --local user.name
 
-
 Have git track a folder
 Call it myfirstgit   -  mkdir myfirst git
 make this directory a git repository - git init
@@ -63,8 +62,6 @@ git branch -d <add-your-name> (e.g. add-chis-erdmann)
 Note: Delete your branch because it is no longer needed
 git push origin --delete <add-your-name> (e.g. add-chis-erdmann)
 Note: Also delete in your remote version
-
-
 
 YouTube Video
 https://www.youtube.com/watch?v=Gg4bLk8cGNo
