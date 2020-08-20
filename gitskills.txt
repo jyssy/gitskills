@@ -69,6 +69,7 @@ then: git commit -m "insert message"
 then: git push
 then git status (just to see that everything pushed to the master just fine.
 
+# Helpful information about how git stores info (from Stackoverflow): https://stackoverflow.com/questions/8198105/how-does-git-store-files/8198276#8198276
 
 git books (free)
 1. Pro Git / https://git-scm.com/book/en/v2
