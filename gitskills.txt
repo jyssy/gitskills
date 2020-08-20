@@ -65,6 +65,9 @@ Note: Also delete in your remote version
 
 ADDING new git files (new or updated)
 run: git . (which adds everything to the staging area)
+then: git commit -m "insert message"
+then: git push
+then git status (just to see that everything pushed to the master just fine.
 
 
 git books (free)
