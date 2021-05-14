@@ -1,5 +1,5 @@
 # Gitskills
 
-Exploring git
+Exploring git from the CLI
 
 # :) 
