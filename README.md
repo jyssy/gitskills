@@ -1,6 +1,5 @@
-# gitskillz
+# Gitskills
 
-Exploring, learning git
-Still exploring in other wayz...
+Exploring git
 
 # :) 
