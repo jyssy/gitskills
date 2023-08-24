@@ -1,8 +1,0 @@
-playing around with git>
-
-- created a branch: git checkout -b "create_branch"
-- added comments to the README (this document)
-- next, will explore pushing this branch to master and merging the pull request
-- The PR GUI process seemed to conflict with the CLI because the branch existed - but the commands at the GUI suggested the branch did not exist: denoted by the fact that the git checkout -b create_branch command was included in the steps even though the GUI's awareness of the branch should have shown obvious 'knowledge' that the branch existed since the existence of a PR reveals a branch had been created under the same name. Not sure where the error was. 
-- I did eventually push the merges to the README - but then decided it was just better to add my learning as text file (since it is really just about notes).
-  
